@@ -15,10 +15,8 @@ body {
 .container1child {
     display: flex;
     gap: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 60px 10px;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -75,4 +73,123 @@ h1, .intro, .signup {
 
 .container1 {
     color: white;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.maincontainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;;
+}
+
+.container2 {
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagex {
+    max-width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.box {
+    max-width: 200px;
+    text-align: center;
+    font-size: smaller;
+    color: rgb(80, 80, 80);
+}
+
+.maincontainer3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+}
+
+.text4 {
+    text-align: left;
+    max-width: 570px;
+    padding-top: 60px;
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.text5 {
+    margin: 0px;
+    padding-bottom: 60px;
+    font-weight: bolder;
+    font-size: larger;
+    align-self: flex-end;
+    padding-right: 30px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding: 70px 10px;
+}
+
+.container4child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    background-color: #3882F6;
+    color: white;
+    padding: 35px 80px;
+    border-radius: 10px;
+}
+
+.speech {
+    padding-right: 100px;
+}
+
+.title1, .textzero {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title1 {
+    font-weight: bolder;
+}
+
+.textzero {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.button10c {
+    background-color: #3882F6;
+    color: white;
+    border: 1.4px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.maincontainer5 {
+    display:flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 0px;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
 }
