@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    font-family:'Roboto';
 }
 
 .maincontainer {
@@ -11,9 +12,13 @@ body {
     justify-content: center;
 }
 
-.container1 {
-    background-color: #1F2937;
-    color: white;
+.container1child {
+    display: flex;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .header {
@@ -35,21 +40,39 @@ ul {
     margin: 0px;
 }
 
+a {
+    color: white;
+    font-size: small;
+ }
+
 .logo {
     font-weight: bolder;
     font-size: larger;
 }
 
-.container1child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.image1 {
+    max-height: 220px;
+    border-radius: 30px;
 }
 
-.image1 {
-    max-width: 500px;
-    border-radius: 10px;
+h1, .intro, .signup {
+    max-width: 305px;
+    margin: 5px;
+}
+
+.intro {
+    font-size: small;
+}
+
+.signup {
+    font-weight: bold;
+    padding: 6px 24px;
+    border-radius:5px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid black;
+}
+
+.container1 {
+    color: white;
 }
